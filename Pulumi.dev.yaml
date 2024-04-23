@@ -1,0 +1,20 @@
+config:
+  azure-native:location: WestUS2
+  azure-native:subscriptionId: e5f47058-78e9-4d5e-b0e0-230a5dcec52f
+  dbh:address_prefix: 10.0.0.0/23
+  dbh:admin_login: nika
+  dbh:admin_password:
+    secure: AAABAAZVry+OxBUrWelXQqSEDz/vjPYwx7f/je6i1/hWGJXvNC8QrNA1kVA=
+  dbh:app_service_name: appservice1
+  dbh:app_service_plan_name: appserviceplan1
+  dbh:cdn_endpoint_name: endpoint1
+  dbh:cdn_profile_name: cdnprofile1
+  dbh:db_host: sys
+  dbh:db_name: sys
+  dbh:location: eastus
+  dbh:mysql_server_name: mysql1-server
+  dbh:origin_hostname: hostnamenika1.azurewebsites.net
+  dbh:resource_group_name: resourcegroup1
+  dbh:sku_name: Standard_B1ms
+  dbh:storage_account_name: staccount1
+  dbh:vnet_name: vnet1
