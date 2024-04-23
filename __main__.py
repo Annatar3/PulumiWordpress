@@ -51,7 +51,7 @@ mysql_server = azure_native.dbformysql.Server(
     location=location,
     resource_group_name=resource_group.name,
     sku=azure_native.dbformysql.SkuArgs(
-        name="Standard_B1ms",  # Example SKU, adjust as needed
+        name="Standard_B1ms",  
         tier=azure_native.dbformysql.SkuTier.GENERAL_PURPOSE
         )
 )
